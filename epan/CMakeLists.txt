@@ -370,7 +370,7 @@ target_include_directories(epan
 	$<INSTALL_INTERFACE:include/wireshark>
 )
 
-target_include_directories(epan SYSTEM PUBLIC ${GLIB2_INCLUDE_DIRS})
+target_include_directories(epan SYSTEM PUBLIC)
 
 add_dependencies(epan lemon)
 

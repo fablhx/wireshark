@@ -143,7 +143,11 @@ static gboolean cap_packet_size    = TRUE;  /* Report average packet size */
 static gboolean cap_packet_rate    = TRUE;  /* Report average packet rate */
 static gboolean cap_order          = TRUE;  /* Report if packets are in chronological order (True/False) */
 
+#ifdef __TRUSTINSOFT_ANALYZER__
+static gboolean cap_file_hashes    = FALSE;
+#else
 static gboolean cap_file_hashes    = TRUE;  /* Calculate file hashes */
+#endif
 
 // Strongest to weakest
 #define HASH_SIZE_SHA256 32
@@ -1497,6 +1501,7 @@ main(int argc, char *argv[])
   /* Get the decimal point. */
   decimal_point = g_strdup(localeconv()->decimal_point);
 
+#ifndef __TRUSTINSOFT_ANALYZER__
   /* Initialize the version information. */
   ws_init_version_info("Capinfos (Wireshark)", NULL, NULL, NULL);
 
@@ -1523,9 +1528,11 @@ main(int argc, char *argv[])
 
   init_report_message(failure_warning_message, failure_warning_message,
                       NULL, NULL, NULL);
+#endif
 
   wtap_init(TRUE);
 
+#ifndef __TRUSTINSOFT_ANALYZER__
   /* Process the options */
   while ((opt = getopt_long(argc, argv, "abcdehiklmnoqrstuvxyzABCDEFHIKLMNQRST", long_options, NULL)) !=-1) {
 
@@ -1730,6 +1737,7 @@ main(int argc, char *argv[])
     hash_buf = (char *)g_malloc(HASH_BUF_SIZE);
   }
 
+#endif
   overall_error_status = 0;
 
   for (opt = optind; opt < argc; opt++) {

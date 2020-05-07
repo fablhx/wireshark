@@ -268,11 +268,8 @@ if(WIN32)
 	target_link_libraries(wsutil PRIVATE "iphlpapi.lib" "ws2_32.lib")
 endif(WIN32)
 
-target_include_directories(wsutil SYSTEM
-	PUBLIC
-		${GCRYPT_INCLUDE_DIRS}
-		${GNUTLS_INCLUDE_DIRS}
-)
+include_directories(${GCRYPT_INCLUDE_DIRS} ${GNUTLS_INCLUDE_DIRS})
+target_include_directories(wsutil SYSTEM PUBLIC)
 
 install(TARGETS wsutil
 	EXPORT WiresharkTargets
