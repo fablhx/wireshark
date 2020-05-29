@@ -1,0 +1,382 @@
+Performing C SOURCE FILE Test C_Wheader_guard_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4451/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4451.dir/build.make CMakeFiles/cmTC_b4451.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4451.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wheader_guard_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wheader-guard -o CMakeFiles/cmTC_b4451.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wheader-guard'
+CMakeFiles/cmTC_b4451.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b4451.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b4451.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b4451/fast' failed
+make: *** [cmTC_b4451/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wcomma_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76e53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76e53.dir/build.make CMakeFiles/cmTC_76e53.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76e53.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wcomma_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wcomma -o CMakeFiles/cmTC_76e53.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wcomma'; did you mean '-Wcomment'?
+CMakeFiles/cmTC_76e53.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_76e53.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_76e53.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_76e53/fast' failed
+make: *** [cmTC_76e53/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wshorten_64_to_32_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_146f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_146f0.dir/build.make CMakeFiles/cmTC_146f0.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_146f0.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wshorten_64_to_32_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wshorten-64-to-32 -o CMakeFiles/cmTC_146f0.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_146f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_146f0.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_146f0.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_146f0/fast' failed
+make: *** [cmTC_146f0/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wheader_guard_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77a18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77a18.dir/build.make CMakeFiles/cmTC_77a18.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77a18.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wheader_guard_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wheader-guard -o CMakeFiles/cmTC_77a18.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wheader-guard'
+CMakeFiles/cmTC_77a18.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_77a18.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_77a18.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_77a18/fast' failed
+make: *** [cmTC_77a18/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wcomma_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_936f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_936f2.dir/build.make CMakeFiles/cmTC_936f2.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_936f2.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wcomma_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wcomma -o CMakeFiles/cmTC_936f2.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wcomma'; did you mean '-Wcomment'?
+CMakeFiles/cmTC_936f2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_936f2.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_936f2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_936f2/fast' failed
+make: *** [cmTC_936f2/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wshorten_64_to_32_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bf67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bf67.dir/build.make CMakeFiles/cmTC_9bf67.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bf67.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wshorten_64_to_32_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wshorten-64-to-32 -o CMakeFiles/cmTC_9bf67.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_9bf67.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9bf67.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9bf67.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9bf67/fast' failed
+make: *** [cmTC_9bf67/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wextra_semi_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ab58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ab58.dir/build.make CMakeFiles/cmTC_0ab58.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ab58.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wextra_semi_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wextra-semi -o CMakeFiles/cmTC_0ab58.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wextra-semi'; did you mean '-Wextra'?
+CMakeFiles/cmTC_0ab58.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0ab58.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0ab58.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ab58/fast' failed
+make: *** [cmTC_0ab58/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_fmacro_prefix_map_old_new_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d55e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d55e5.dir/build.make CMakeFiles/cmTC_d55e5.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d55e5.dir/src.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_fmacro_prefix_map_old_new_VALID -fPIE   -fmacro-prefix-map=old=new -o CMakeFiles/cmTC_d55e5.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-fmacro-prefix-map=old=new'; did you mean '-fdebug-prefix-map='?
+CMakeFiles/cmTC_d55e5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d55e5.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d55e5.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d55e5/fast' failed
+make: *** [cmTC_d55e5/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_fmacro_prefix_map_old_new_VALID failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1e31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1e31.dir/build.make CMakeFiles/cmTC_f1e31.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1e31.dir/src.cxx.o
+/usr/bin/c++    -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768  -DCXX_fmacro_prefix_map_old_new_VALID -fPIE   -fmacro-prefix-map=old=new -o CMakeFiles/cmTC_f1e31.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fmacro-prefix-map=old=new'; did you mean '-fdebug-prefix-map='?
+CMakeFiles/cmTC_f1e31.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f1e31.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f1e31.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f1e31/fast' failed
+make: *** [cmTC_f1e31/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the function pcap_open exists failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_815c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_815c0.dir/build.make CMakeFiles/cmTC_815c0.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_815c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_open -fPIE   -o CMakeFiles/cmTC_815c0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_815c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_815c0.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_open  -pie   CMakeFiles/cmTC_815c0.dir/CheckFunctionExists.c.o  -o cmTC_815c0 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+CMakeFiles/cmTC_815c0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pcap_open'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_815c0.dir/build.make:98: recipe for target 'cmTC_815c0' failed
+make[1]: *** [cmTC_815c0] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_815c0/fast' failed
+make: *** [cmTC_815c0/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b79db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b79db.dir/build.make CMakeFiles/cmTC_b79db.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b79db.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_b79db.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b79db.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b79db.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b79db.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b79db/fast' failed
+make: *** [cmTC_b79db/fast] Error 2
+
+
+Determining if the optreset exist failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_965fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_965fb.dir/build.make CMakeFiles/cmTC_965fb.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_965fb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_965fb.dir/CheckSymbolExists.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘optreset’ undeclared (first use in this function); did you mean ‘optopt’?
+   return ((int*)(&optreset))[argc];
+                   ^~~~~~~~
+                   optopt
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+CMakeFiles/cmTC_965fb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_965fb.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_965fb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_965fb/fast' failed
+make: *** [cmTC_965fb/fast] Error 2
+
+File /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <getopt.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef optreset
+  return ((int*)(&optreset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ddf1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ddf1.dir/build.make CMakeFiles/cmTC_9ddf1.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ddf1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=issetugid -fPIE   -o CMakeFiles/cmTC_9ddf1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ddf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ddf1.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=issetugid  -pie   CMakeFiles/cmTC_9ddf1.dir/CheckFunctionExists.c.o  -o cmTC_9ddf1 
+CMakeFiles/cmTC_9ddf1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9ddf1.dir/build.make:97: recipe for target 'cmTC_9ddf1' failed
+make[1]: *** [cmTC_9ddf1] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9ddf1/fast' failed
+make: *** [cmTC_9ddf1/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_SA_LEN failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d43dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d43dd.dir/build.make CMakeFiles/cmTC_d43dd.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43dd.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_SOCKADDR_SA_LEN -fPIE   -o CMakeFiles/cmTC_d43dd.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:6:39: error: ‘struct sockaddr’ has no member named ‘sa_len’
+    (void)sizeof(((struct sockaddr *)0)->sa_len);
+                                       ^~
+CMakeFiles/cmTC_d43dd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d43dd.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d43dd.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d43dd/fast' failed
+make: *** [cmTC_d43dd/fast] Error 2
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr *)0)->sa_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3964a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3964a.dir/build.make CMakeFiles/cmTC_3964a.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3964a.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_STAT_ST_FLAGS -fPIE   -o CMakeFiles/cmTC_3964a.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:6:37: error: ‘struct stat’ has no member named ‘st_flags’; did you mean ‘st_nlink’?
+    (void)sizeof(((struct stat *)0)->st_flags);
+                                     ^~~~~~~~
+                                     st_nlink
+CMakeFiles/cmTC_3964a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3964a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3964a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3964a/fast' failed
+make: *** [cmTC_3964a/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_flags);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIME failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad784/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad784.dir/build.make CMakeFiles/cmTC_ad784.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad784.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_STAT_ST_BIRTHTIME -fPIE   -o CMakeFiles/cmTC_ad784.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:6:37: error: ‘struct stat’ has no member named ‘st_birthtime’; did you mean ‘st_blksize’?
+    (void)sizeof(((struct stat *)0)->st_birthtime);
+                                     ^~~~~~~~~~~~
+                                     st_blksize
+CMakeFiles/cmTC_ad784.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ad784.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ad784.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad784/fast' failed
+make: *** [cmTC_ad784/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_birthtime);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT___ST_BIRTHTIME failed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51d73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51d73.dir/build.make CMakeFiles/cmTC_51d73.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51d73.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_STAT___ST_BIRTHTIME -fPIE   -o CMakeFiles/cmTC_51d73.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:6:35: error: ‘struct stat’ has no member named ‘__st_birthtime’
+    (void)sizeof(((struct stat *)0)->__st_birthtime);
+                                   ^~
+CMakeFiles/cmTC_51d73.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_51d73.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_51d73.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_51d73/fast' failed
+make: *** [cmTC_51d73/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->__st_birthtime);
+   return 0;
+}
+

@@ -1,0 +1,1996 @@
+The system is: Linux - 4.15.0-99-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23dcf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23dcf.dir/build.make CMakeFiles/cmTC_23dcf.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23dcf.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_23dcf.dir/testCCompiler.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_23dcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23dcf.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_23dcf.dir/testCCompiler.c.o  -o cmTC_23dcf 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41883/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41883.dir/build.make CMakeFiles/cmTC_41883.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_41883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41883.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o  -o cmTC_41883 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41883' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq9jpwP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41883 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41883' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_41883/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_41883.dir/build.make CMakeFiles/cmTC_41883.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_41883]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41883.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o  -o cmTC_41883 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41883' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq9jpwP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41883 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccq9jpwP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_41883] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_41883.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b5e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b5e2.dir/build.make CMakeFiles/cmTC_3b5e2.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b5e2.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3b5e2.dir/feature_tests.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3b5e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b5e2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3b5e2.dir/feature_tests.c.o  -o cmTC_3b5e2 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f95a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f95a5.dir/build.make CMakeFiles/cmTC_f95a5.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f95a5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_f95a5.dir/feature_tests.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f95a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f95a5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f95a5.dir/feature_tests.c.o  -o cmTC_f95a5 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a193/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a193.dir/build.make CMakeFiles/cmTC_3a193.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a193.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3a193.dir/feature_tests.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3a193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a193.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3a193.dir/feature_tests.c.o  -o cmTC_3a193 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f26da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f26da.dir/build.make CMakeFiles/cmTC_f26da.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f26da.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f26da.dir/testCXXCompiler.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f26da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f26da.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f26da.dir/testCXXCompiler.cxx.o  -o cmTC_f26da 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17998/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17998.dir/build.make CMakeFiles/cmTC_17998.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_17998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17998.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_17998 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17998' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cczDzjMi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_17998 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17998' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_17998/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_17998.dir/build.make CMakeFiles/cmTC_17998.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_17998]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17998.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_17998 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17998' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cczDzjMi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_17998 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczDzjMi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_17998] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_17998.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79a8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79a8d.dir/build.make CMakeFiles/cmTC_79a8d.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79a8d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_79a8d.dir/feature_tests.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_79a8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79a8d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_79a8d.dir/feature_tests.cxx.o  -o cmTC_79a8d 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9924b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9924b.dir/build.make CMakeFiles/cmTC_9924b.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9924b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_9924b.dir/feature_tests.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9924b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9924b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9924b.dir/feature_tests.cxx.o  -o cmTC_9924b 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e31a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e31a7.dir/build.make CMakeFiles/cmTC_e31a7.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e31a7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_e31a7.dir/feature_tests.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e31a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e31a7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e31a7.dir/feature_tests.cxx.o  -o cmTC_e31a7 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d424/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d424.dir/build.make CMakeFiles/cmTC_5d424.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d424.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5d424.dir/feature_tests.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5d424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d424.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5d424.dir/feature_tests.cxx.o  -o cmTC_5d424 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test C_fexcess_precision_fast_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b282b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b282b.dir/build.make CMakeFiles/cmTC_b282b.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b282b.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_fexcess_precision_fast_VALID -fPIE   -fexcess-precision=fast -o CMakeFiles/cmTC_b282b.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b282b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b282b.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_fexcess_precision_fast_VALID    CMakeFiles/cmTC_b282b.dir/src.c.o  -o cmTC_b282b 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wall_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7134f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7134f.dir/build.make CMakeFiles/cmTC_7134f.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7134f.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wall_VALID -fPIE   -fexcess-precision=fast -Wall -o CMakeFiles/cmTC_7134f.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7134f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7134f.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wall_VALID    CMakeFiles/cmTC_7134f.dir/src.c.o  -o cmTC_7134f 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wextra_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d48cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d48cf.dir/build.make CMakeFiles/cmTC_d48cf.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d48cf.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wextra_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -o CMakeFiles/cmTC_d48cf.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d48cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d48cf.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wextra_VALID    CMakeFiles/cmTC_d48cf.dir/src.c.o  -o cmTC_d48cf 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wendif_labels_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d168/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d168.dir/build.make CMakeFiles/cmTC_7d168.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d168.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wendif_labels_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -o CMakeFiles/cmTC_7d168.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7d168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d168.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wendif_labels_VALID    CMakeFiles/cmTC_7d168.dir/src.c.o  -o cmTC_7d168 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wpointer_arith_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b412d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b412d.dir/build.make CMakeFiles/cmTC_b412d.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b412d.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wpointer_arith_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -o CMakeFiles/cmTC_b412d.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b412d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b412d.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wpointer_arith_VALID    CMakeFiles/cmTC_b412d.dir/src.c.o  -o cmTC_b412d 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wformat_security_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73f65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73f65.dir/build.make CMakeFiles/cmTC_73f65.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73f65.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wformat_security_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -o CMakeFiles/cmTC_73f65.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73f65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f65.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wformat_security_VALID    CMakeFiles/cmTC_73f65.dir/src.c.o  -o cmTC_73f65 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_fwrapv_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_951b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_951b0.dir/build.make CMakeFiles/cmTC_951b0.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_951b0.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_fwrapv_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -o CMakeFiles/cmTC_951b0.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_951b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_951b0.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_fwrapv_VALID    CMakeFiles/cmTC_951b0.dir/src.c.o  -o cmTC_951b0 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_fno_strict_overflow_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ba52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ba52.dir/build.make CMakeFiles/cmTC_2ba52.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ba52.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_fno_strict_overflow_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -o CMakeFiles/cmTC_2ba52.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ba52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ba52.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_fno_strict_overflow_VALID    CMakeFiles/cmTC_2ba52.dir/src.c.o  -o cmTC_2ba52 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wvla_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81943/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81943.dir/build.make CMakeFiles/cmTC_81943.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81943.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wvla_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -o CMakeFiles/cmTC_81943.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81943.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wvla_VALID    CMakeFiles/cmTC_81943.dir/src.c.o  -o cmTC_81943 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Waddress_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7864/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7864.dir/build.make CMakeFiles/cmTC_e7864.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7864.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Waddress_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -o CMakeFiles/cmTC_e7864.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e7864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7864.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Waddress_VALID    CMakeFiles/cmTC_e7864.dir/src.c.o  -o cmTC_e7864 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wattributes_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc4d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc4d0.dir/build.make CMakeFiles/cmTC_bc4d0.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc4d0.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wattributes_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -o CMakeFiles/cmTC_bc4d0.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bc4d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc4d0.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wattributes_VALID    CMakeFiles/cmTC_bc4d0.dir/src.c.o  -o cmTC_bc4d0 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wdiv_by_zero_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d654/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d654.dir/build.make CMakeFiles/cmTC_1d654.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d654.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wdiv_by_zero_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -o CMakeFiles/cmTC_1d654.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1d654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d654.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wdiv_by_zero_VALID    CMakeFiles/cmTC_1d654.dir/src.c.o  -o cmTC_1d654 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wignored_qualifiers_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_488b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_488b5.dir/build.make CMakeFiles/cmTC_488b5.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_488b5.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wignored_qualifiers_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -o CMakeFiles/cmTC_488b5.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_488b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_488b5.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wignored_qualifiers_VALID    CMakeFiles/cmTC_488b5.dir/src.c.o  -o cmTC_488b5 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wpragmas_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be560/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be560.dir/build.make CMakeFiles/cmTC_be560.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be560.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wpragmas_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -o CMakeFiles/cmTC_be560.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_be560
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be560.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wpragmas_VALID    CMakeFiles/cmTC_be560.dir/src.c.o  -o cmTC_be560 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wno_overlength_strings_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76753/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76753.dir/build.make CMakeFiles/cmTC_76753.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76753.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wno_overlength_strings_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -o CMakeFiles/cmTC_76753.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_76753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76753.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wno_overlength_strings_VALID    CMakeFiles/cmTC_76753.dir/src.c.o  -o cmTC_76753 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wno_long_long_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f651f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f651f.dir/build.make CMakeFiles/cmTC_f651f.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f651f.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wno_long_long_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -o CMakeFiles/cmTC_f651f.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f651f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f651f.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wno_long_long_VALID    CMakeFiles/cmTC_f651f.dir/src.c.o  -o cmTC_f651f 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wframe_larger_than_32768_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57dc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57dc3.dir/build.make CMakeFiles/cmTC_57dc3.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57dc3.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wframe_larger_than_32768_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -o CMakeFiles/cmTC_57dc3.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_57dc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57dc3.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wframe_larger_than_32768_VALID    CMakeFiles/cmTC_57dc3.dir/src.c.o  -o cmTC_57dc3 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wc___compat_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f559/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f559.dir/build.make CMakeFiles/cmTC_4f559.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f559.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wc___compat_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -o CMakeFiles/cmTC_4f559.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f559.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wc___compat_VALID    CMakeFiles/cmTC_4f559.dir/src.c.o  -o cmTC_4f559 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wunused_const_variable_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9633/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9633.dir/build.make CMakeFiles/cmTC_b9633.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9633.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wunused_const_variable_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -o CMakeFiles/cmTC_b9633.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b9633
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9633.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wunused_const_variable_VALID    CMakeFiles/cmTC_b9633.dir/src.c.o  -o cmTC_b9633 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wshadow_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abb39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abb39.dir/build.make CMakeFiles/cmTC_abb39.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abb39.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wshadow_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -o CMakeFiles/cmTC_abb39.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_abb39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abb39.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wshadow_VALID    CMakeFiles/cmTC_abb39.dir/src.c.o  -o cmTC_abb39 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wold_style_definition_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4147/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4147.dir/build.make CMakeFiles/cmTC_d4147.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4147.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wold_style_definition_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -o CMakeFiles/cmTC_d4147.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d4147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4147.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wold_style_definition_VALID    CMakeFiles/cmTC_d4147.dir/src.c.o  -o cmTC_d4147 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wstrict_prototypes_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1dca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1dca.dir/build.make CMakeFiles/cmTC_b1dca.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1dca.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wstrict_prototypes_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -o CMakeFiles/cmTC_b1dca.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b1dca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1dca.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wstrict_prototypes_VALID    CMakeFiles/cmTC_b1dca.dir/src.c.o  -o cmTC_b1dca 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wlogical_op_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51586/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51586.dir/build.make CMakeFiles/cmTC_51586.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51586.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wlogical_op_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -o CMakeFiles/cmTC_51586.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_51586
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51586.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wlogical_op_VALID    CMakeFiles/cmTC_51586.dir/src.c.o  -o cmTC_51586 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wjump_misses_init_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95adb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95adb.dir/build.make CMakeFiles/cmTC_95adb.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95adb.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wjump_misses_init_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -o CMakeFiles/cmTC_95adb.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_95adb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95adb.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wjump_misses_init_VALID    CMakeFiles/cmTC_95adb.dir/src.c.o  -o cmTC_95adb 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Werror_implicit_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fae9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fae9b.dir/build.make CMakeFiles/cmTC_fae9b.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fae9b.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Werror_implicit_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -o CMakeFiles/cmTC_fae9b.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fae9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fae9b.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Werror_implicit_VALID    CMakeFiles/cmTC_fae9b.dir/src.c.o  -o cmTC_fae9b 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wno_pointer_sign_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f4fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f4fe.dir/build.make CMakeFiles/cmTC_1f4fe.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f4fe.dir/src.c.o
+/usr/bin/cc   -std=gnu99  -DC_Wno_pointer_sign_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -o CMakeFiles/cmTC_1f4fe.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1f4fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f4fe.dir/link.txt --verbose=1
+/usr/bin/cc -std=gnu99  -DC_Wno_pointer_sign_VALID    CMakeFiles/cmTC_1f4fe.dir/src.c.o  -o cmTC_1f4fe 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_fexcess_precision_fast_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd8c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd8c1.dir/build.make CMakeFiles/cmTC_cd8c1.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd8c1.dir/src.cxx.o
+/usr/bin/c++    -DCXX_fexcess_precision_fast_VALID -fPIE   -fexcess-precision=fast -o CMakeFiles/cmTC_cd8c1.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cd8c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd8c1.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_fexcess_precision_fast_VALID    CMakeFiles/cmTC_cd8c1.dir/src.cxx.o  -o cmTC_cd8c1 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wall_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c4b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c4b0.dir/build.make CMakeFiles/cmTC_2c4b0.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c4b0.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wall_VALID -fPIE   -fexcess-precision=fast -Wall -o CMakeFiles/cmTC_2c4b0.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2c4b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c4b0.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wall_VALID    CMakeFiles/cmTC_2c4b0.dir/src.cxx.o  -o cmTC_2c4b0 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wextra_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51e0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51e0b.dir/build.make CMakeFiles/cmTC_51e0b.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51e0b.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wextra_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -o CMakeFiles/cmTC_51e0b.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51e0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e0b.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wextra_VALID    CMakeFiles/cmTC_51e0b.dir/src.cxx.o  -o cmTC_51e0b 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wendif_labels_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_545fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_545fb.dir/build.make CMakeFiles/cmTC_545fb.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_545fb.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wendif_labels_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -o CMakeFiles/cmTC_545fb.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_545fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545fb.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wendif_labels_VALID    CMakeFiles/cmTC_545fb.dir/src.cxx.o  -o cmTC_545fb 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wpointer_arith_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f98d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f98d8.dir/build.make CMakeFiles/cmTC_f98d8.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f98d8.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wpointer_arith_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -o CMakeFiles/cmTC_f98d8.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f98d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f98d8.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wpointer_arith_VALID    CMakeFiles/cmTC_f98d8.dir/src.cxx.o  -o cmTC_f98d8 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wformat_security_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9464f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9464f.dir/build.make CMakeFiles/cmTC_9464f.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9464f.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wformat_security_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -o CMakeFiles/cmTC_9464f.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9464f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9464f.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wformat_security_VALID    CMakeFiles/cmTC_9464f.dir/src.cxx.o  -o cmTC_9464f 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_fwrapv_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2467f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2467f.dir/build.make CMakeFiles/cmTC_2467f.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2467f.dir/src.cxx.o
+/usr/bin/c++    -DCXX_fwrapv_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -o CMakeFiles/cmTC_2467f.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2467f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2467f.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_fwrapv_VALID    CMakeFiles/cmTC_2467f.dir/src.cxx.o  -o cmTC_2467f 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_fno_strict_overflow_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_208f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_208f6.dir/build.make CMakeFiles/cmTC_208f6.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_208f6.dir/src.cxx.o
+/usr/bin/c++    -DCXX_fno_strict_overflow_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -o CMakeFiles/cmTC_208f6.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_208f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_208f6.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_fno_strict_overflow_VALID    CMakeFiles/cmTC_208f6.dir/src.cxx.o  -o cmTC_208f6 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wvla_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a23d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a23d.dir/build.make CMakeFiles/cmTC_1a23d.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a23d.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wvla_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -o CMakeFiles/cmTC_1a23d.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a23d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a23d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wvla_VALID    CMakeFiles/cmTC_1a23d.dir/src.cxx.o  -o cmTC_1a23d 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Waddress_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21337/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21337.dir/build.make CMakeFiles/cmTC_21337.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21337.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Waddress_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -o CMakeFiles/cmTC_21337.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_21337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21337.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Waddress_VALID    CMakeFiles/cmTC_21337.dir/src.cxx.o  -o cmTC_21337 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wattributes_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b388/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b388.dir/build.make CMakeFiles/cmTC_9b388.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b388.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wattributes_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -o CMakeFiles/cmTC_9b388.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9b388
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b388.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wattributes_VALID    CMakeFiles/cmTC_9b388.dir/src.cxx.o  -o cmTC_9b388 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wdiv_by_zero_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a0da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a0da.dir/build.make CMakeFiles/cmTC_2a0da.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a0da.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wdiv_by_zero_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -o CMakeFiles/cmTC_2a0da.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a0da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a0da.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wdiv_by_zero_VALID    CMakeFiles/cmTC_2a0da.dir/src.cxx.o  -o cmTC_2a0da 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wignored_qualifiers_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db5ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db5ff.dir/build.make CMakeFiles/cmTC_db5ff.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db5ff.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wignored_qualifiers_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -o CMakeFiles/cmTC_db5ff.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_db5ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db5ff.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wignored_qualifiers_VALID    CMakeFiles/cmTC_db5ff.dir/src.cxx.o  -o cmTC_db5ff 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wpragmas_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d68c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d68c1.dir/build.make CMakeFiles/cmTC_d68c1.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d68c1.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wpragmas_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -o CMakeFiles/cmTC_d68c1.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d68c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d68c1.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wpragmas_VALID    CMakeFiles/cmTC_d68c1.dir/src.cxx.o  -o cmTC_d68c1 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wno_overlength_strings_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19452/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19452.dir/build.make CMakeFiles/cmTC_19452.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19452.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wno_overlength_strings_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -o CMakeFiles/cmTC_19452.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19452
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19452.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wno_overlength_strings_VALID    CMakeFiles/cmTC_19452.dir/src.cxx.o  -o cmTC_19452 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wno_long_long_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7cde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7cde.dir/build.make CMakeFiles/cmTC_f7cde.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7cde.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wno_long_long_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -o CMakeFiles/cmTC_f7cde.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f7cde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7cde.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wno_long_long_VALID    CMakeFiles/cmTC_f7cde.dir/src.cxx.o  -o cmTC_f7cde 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wframe_larger_than_32768_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06043/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06043.dir/build.make CMakeFiles/cmTC_06043.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06043.dir/src.cxx.o
+/usr/bin/c++    -DCXX_Wframe_larger_than_32768_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -o CMakeFiles/cmTC_06043.dir/src.cxx.o -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06043.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_Wframe_larger_than_32768_VALID    CMakeFiles/cmTC_06043.dir/src.cxx.o  -o cmTC_06043 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test WERROR succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0922/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0922.dir/build.make CMakeFiles/cmTC_d0922.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0922.dir/src.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DWERROR -fPIE   -Werror -o CMakeFiles/cmTC_d0922.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d0922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0922.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DWERROR    CMakeFiles/cmTC_d0922.dir/src.c.o  -o cmTC_d0922 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FVHIDDEN succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd18a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd18a.dir/build.make CMakeFiles/cmTC_fd18a.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd18a.dir/src.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DFVHIDDEN -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_fd18a.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fd18a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd18a.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DFVHIDDEN    CMakeFiles/cmTC_fd18a.dir/src.c.o  -o cmTC_fd18a 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LINK_pie_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb6c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb6c4.dir/build.make CMakeFiles/cmTC_eb6c4.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb6c4.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DLINK_pie_VALID -fPIE   -o CMakeFiles/cmTC_eb6c4.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eb6c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6c4.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DLINK_pie_VALID    CMakeFiles/cmTC_eb6c4.dir/src.c.o  -o cmTC_eb6c4 -pie 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0;}
+Performing C SOURCE FILE Test LINK_Wl___as_needed_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13679/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13679.dir/build.make CMakeFiles/cmTC_13679.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13679.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DLINK_Wl___as_needed_VALID -fPIE   -o CMakeFiles/cmTC_13679.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_13679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13679.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DLINK_Wl___as_needed_VALID  -pie   CMakeFiles/cmTC_13679.dir/src.c.o  -o cmTC_13679 -Wl,--as-needed 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0;}
+Determining if the pcap_lib_version exist passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15102/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15102.dir/build.make CMakeFiles/cmTC_15102.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15102.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_15102.dir/CheckSymbolExists.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_15102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15102.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_15102.dir/CheckSymbolExists.c.o  -o cmTC_15102 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+File /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include/pcap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pcap_lib_version
+  return ((int*)(&pcap_lib_version))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pcap_freecode exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72dc5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72dc5.dir/build.make CMakeFiles/cmTC_72dc5.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72dc5.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_freecode -fPIE   -o CMakeFiles/cmTC_72dc5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72dc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72dc5.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_freecode  -pie   CMakeFiles/cmTC_72dc5.dir/CheckFunctionExists.c.o  -o cmTC_72dc5 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pcap_create exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51cc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51cc4.dir/build.make CMakeFiles/cmTC_51cc4.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51cc4.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_create -fPIE   -o CMakeFiles/cmTC_51cc4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51cc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51cc4.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_create  -pie   CMakeFiles/cmTC_51cc4.dir/CheckFunctionExists.c.o  -o cmTC_51cc4 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pcap_free_datalinks exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f267b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f267b.dir/build.make CMakeFiles/cmTC_f267b.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f267b.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_free_datalinks -fPIE   -o CMakeFiles/cmTC_f267b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f267b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f267b.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_free_datalinks  -pie   CMakeFiles/cmTC_f267b.dir/CheckFunctionExists.c.o  -o cmTC_f267b -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pcap_set_tstamp_precision exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3016/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3016.dir/build.make CMakeFiles/cmTC_c3016.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3016.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_set_tstamp_precision -fPIE   -o CMakeFiles/cmTC_c3016.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3016
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3016.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_set_tstamp_precision  -pie   CMakeFiles/cmTC_c3016.dir/CheckFunctionExists.c.o  -o cmTC_c3016 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pcap_set_tstamp_type exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7f39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7f39.dir/build.make CMakeFiles/cmTC_e7f39.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7f39.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_set_tstamp_type -fPIE   -o CMakeFiles/cmTC_e7f39.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7f39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7f39.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_set_tstamp_type  -pie   CMakeFiles/cmTC_e7f39.dir/CheckFunctionExists.c.o  -o cmTC_e7f39 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libpcap.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inflate exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6272c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6272c.dir/build.make CMakeFiles/cmTC_6272c.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6272c.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=inflate -fPIE   -o CMakeFiles/cmTC_6272c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6272c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6272c.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=inflate  -pie   CMakeFiles/cmTC_6272c.dir/CheckFunctionExists.c.o  -o cmTC_6272c -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libz.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inflatePrime exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5e99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5e99.dir/build.make CMakeFiles/cmTC_e5e99.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5e99.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/include  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=inflatePrime -fPIE   -o CMakeFiles/cmTC_e5e99.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e5e99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e99.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=inflatePrime  -pie   CMakeFiles/cmTC_e5e99.dir/CheckFunctionExists.c.o  -o cmTC_e5e99 -Wl,-rpath,/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/prefix/lib/libz.so 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e8b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e8b9.dir/build.make CMakeFiles/cmTC_0e8b9.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e8b9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_0e8b9.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e8b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e8b9.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_0e8b9.dir/CheckIncludeFile.c.o  -o cmTC_0e8b9 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d668/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d668.dir/build.make CMakeFiles/cmTC_7d668.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d668.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_7d668.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d668.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_7d668.dir/CheckIncludeFile.c.o  -o cmTC_7d668 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_297dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_297dc.dir/build.make CMakeFiles/cmTC_297dc.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_297dc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_297dc.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_297dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_297dc.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_297dc.dir/CheckIncludeFile.c.o  -o cmTC_297dc 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file grp.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf795/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf795.dir/build.make CMakeFiles/cmTC_bf795.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf795.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_bf795.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bf795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf795.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_bf795.dir/CheckIncludeFile.c.o  -o cmTC_bf795 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;ifaddrs.h exist passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cd6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2cd6f.dir/build.make CMakeFiles/cmTC_2cd6f.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cd6f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_2cd6f.dir/CheckIncludeFiles.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_2cd6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cd6f.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_2cd6f.dir/CheckIncludeFiles.c.o  -o cmTC_2cd6f 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ceae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ceae.dir/build.make CMakeFiles/cmTC_7ceae.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ceae.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_7ceae.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ceae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ceae.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_7ceae.dir/CheckIncludeFile.c.o  -o cmTC_7ceae 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca521.dir/build.make CMakeFiles/cmTC_ca521.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca521.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_ca521.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ca521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca521.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_ca521.dir/CheckIncludeFile.c.o  -o cmTC_ca521 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e562/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e562.dir/build.make CMakeFiles/cmTC_6e562.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e562.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_6e562.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6e562
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e562.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_6e562.dir/CheckIncludeFile.c.o  -o cmTC_6e562 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b779f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b779f.dir/build.make CMakeFiles/cmTC_b779f.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b779f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_b779f.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b779f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b779f.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_b779f.dir/CheckIncludeFile.c.o  -o cmTC_b779f 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a6be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a6be.dir/build.make CMakeFiles/cmTC_4a6be.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a6be.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_4a6be.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a6be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a6be.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_4a6be.dir/CheckIncludeFile.c.o  -o cmTC_4a6be 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5abe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5abe.dir/build.make CMakeFiles/cmTC_e5abe.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5abe.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_e5abe.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e5abe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5abe.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_e5abe.dir/CheckIncludeFile.c.o  -o cmTC_e5abe 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b6e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b6e3.dir/build.make CMakeFiles/cmTC_7b6e3.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b6e3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_7b6e3.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b6e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b6e3.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_7b6e3.dir/CheckIncludeFile.c.o  -o cmTC_7b6e3 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43051/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43051.dir/build.make CMakeFiles/cmTC_43051.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43051.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_43051.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_43051
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43051.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_43051.dir/CheckIncludeFile.c.o  -o cmTC_43051 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ffd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ffd5.dir/build.make CMakeFiles/cmTC_2ffd5.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ffd5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_2ffd5.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2ffd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ffd5.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_2ffd5.dir/CheckIncludeFile.c.o  -o cmTC_2ffd5 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08c32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08c32.dir/build.make CMakeFiles/cmTC_08c32.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08c32.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_08c32.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_08c32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08c32.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_08c32.dir/CheckIncludeFile.c.o  -o cmTC_08c32 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_LINUX_SOCKIOS_H succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce783/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce783.dir/build.make CMakeFiles/cmTC_ce783.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce783.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_LINUX_SOCKIOS_H -fPIE   -o CMakeFiles/cmTC_ce783.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ce783
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce783.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_LINUX_SOCKIOS_H  -pie   CMakeFiles/cmTC_ce783.dir/src.c.o  -o cmTC_ce783 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/socket.h>
+		#include <linux/sockios.h>
+		int main(void)
+		{
+			return 0;
+		}
+Performing C SOURCE FILE Test HAVE_LINUX_IF_BONDING_H succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3bf4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3bf4.dir/build.make CMakeFiles/cmTC_e3bf4.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3bf4.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_LINUX_IF_BONDING_H -fPIE   -o CMakeFiles/cmTC_e3bf4.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3bf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3bf4.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_LINUX_IF_BONDING_H  -pie   CMakeFiles/cmTC_e3bf4.dir/src.c.o  -o cmTC_e3bf4 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/socket.h>
+		#include <linux/if_bonding.h>
+		int main(void)
+		{
+			return 0;
+		}
+Determining if the floorl exist passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bea07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bea07.dir/build.make CMakeFiles/cmTC_bea07.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bea07.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_bea07.dir/CheckSymbolExists.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bea07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bea07.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_bea07.dir/CheckSymbolExists.c.o  -o cmTC_bea07 -lm 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+File /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorl
+  return ((int*)(&floorl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bc70/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bc70.dir/build.make CMakeFiles/cmTC_1bc70.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bc70.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=getopt_long -fPIE   -o CMakeFiles/cmTC_1bc70.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1bc70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bc70.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=getopt_long  -pie   CMakeFiles/cmTC_1bc70.dir/CheckFunctionExists.c.o  -o cmTC_1bc70 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11455/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11455.dir/build.make CMakeFiles/cmTC_11455.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11455.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=getifaddrs -fPIE   -o CMakeFiles/cmTC_11455.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11455.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=getifaddrs  -pie   CMakeFiles/cmTC_11455.dir/CheckFunctionExists.c.o  -o cmTC_11455 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemps exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd143/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd143.dir/build.make CMakeFiles/cmTC_cd143.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd143.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=mkstemps -fPIE   -o CMakeFiles/cmTC_cd143.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd143
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd143.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=mkstemps  -pie   CMakeFiles/cmTC_cd143.dir/CheckFunctionExists.c.o  -o cmTC_cd143 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setresgid exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a19d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a19d.dir/build.make CMakeFiles/cmTC_1a19d.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a19d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=setresgid -fPIE   -o CMakeFiles/cmTC_1a19d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1a19d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a19d.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=setresgid  -pie   CMakeFiles/cmTC_1a19d.dir/CheckFunctionExists.c.o  -o cmTC_1a19d 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setresuid exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01674/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01674.dir/build.make CMakeFiles/cmTC_01674.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01674.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=setresuid -fPIE   -o CMakeFiles/cmTC_01674.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01674.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=setresuid  -pie   CMakeFiles/cmTC_01674.dir/CheckFunctionExists.c.o  -o cmTC_01674 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fd40/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fd40.dir/build.make CMakeFiles/cmTC_7fd40.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fd40.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=strptime -fPIE   -o CMakeFiles/cmTC_7fd40.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7fd40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fd40.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCHECK_FUNCTION_EXISTS=strptime  -pie   CMakeFiles/cmTC_7fd40.dir/CheckFunctionExists.c.o  -o cmTC_7fd40 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BLKSIZE succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c4c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c4c1.dir/build.make CMakeFiles/cmTC_3c4c1.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c4c1.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_STAT_ST_BLKSIZE -fPIE   -o CMakeFiles/cmTC_3c4c1.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+Linking C executable cmTC_3c4c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c4c1.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_STAT_ST_BLKSIZE  -pie   CMakeFiles/cmTC_3c4c1.dir/src.c.o  -o cmTC_3c4c1 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_blksize);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TM_TM_ZONE succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_588e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_588e0.dir/build.make CMakeFiles/cmTC_588e0.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_588e0.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_TM_TM_ZONE -fPIE   -o CMakeFiles/cmTC_588e0.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+Linking C executable cmTC_588e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_588e0.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DHAVE_STRUCT_TM_TM_ZONE  -pie   CMakeFiles/cmTC_588e0.dir/src.c.o  -o cmTC_588e0 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct tm *)0)->tm_zone);
+   return 0;
+}
+
+Determining if the tzname exist passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb951/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb951.dir/build.make CMakeFiles/cmTC_cb951.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb951.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_cb951.dir/CheckSymbolExists.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cb951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb951.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_cb951.dir/CheckSymbolExists.c.o  -o cmTC_cb951 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+File /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tzname
+  return ((int*)(&tzname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test C_Wimplicit_fallthrough_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cabf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cabf.dir/build.make CMakeFiles/cmTC_7cabf.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cabf.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_Wimplicit_fallthrough_VALID -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_7cabf.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7cabf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cabf.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_Wimplicit_fallthrough_VALID  -pie   CMakeFiles/cmTC_7cabf.dir/src.c.o  -o cmTC_7cabf 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wsign_compare_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60ded/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60ded.dir/build.make CMakeFiles/cmTC_60ded.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60ded.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_Wsign_compare_VALID -fPIE   -Wsign-compare -o CMakeFiles/cmTC_60ded.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_60ded
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ded.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_Wsign_compare_VALID  -pie   CMakeFiles/cmTC_60ded.dir/src.c.o  -o cmTC_60ded 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wunused_parameter_VALID succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0622e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0622e.dir/build.make CMakeFiles/cmTC_0622e.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0622e.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_Wunused_parameter_VALID -fPIE   -Wunused-parameter -o CMakeFiles/cmTC_0622e.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0622e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0622e.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DC_Wunused_parameter_VALID  -pie   CMakeFiles/cmTC_0622e.dir/src.c.o  -o cmTC_0622e 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_CAN_HANDLE_SSE4_2 succeeded with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e85e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e85e3.dir/build.make CMakeFiles/cmTC_e85e3.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e85e3.dir/src.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCOMPILER_CAN_HANDLE_SSE4_2 -fPIE   -msse4.2 -o CMakeFiles/cmTC_e85e3.dir/src.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e85e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e85e3.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -DCOMPILER_CAN_HANDLE_SSE4_2  -pie   CMakeFiles/cmTC_e85e3.dir/src.c.o  -o cmTC_e85e3 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file emmintrin.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60c34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60c34.dir/build.make CMakeFiles/cmTC_60c34.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60c34.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99   -fPIE   -o CMakeFiles/cmTC_60c34.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60c34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60c34.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99    -pie   CMakeFiles/cmTC_60c34.dir/CheckIncludeFile.c.o  -o cmTC_60c34 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file nmmintrin.h exists passed with the following output:
+Change Dir: /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c20cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c20cc.dir/build.make CMakeFiles/cmTC_c20cc.dir/build
+make[1]: Entering directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c20cc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -msse4.2 -fPIE   -o CMakeFiles/cmTC_c20cc.dir/CheckIncludeFile.c.o   -c /home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c20cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c20cc.dir/link.txt --verbose=1
+/usr/bin/cc -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -Wshadow -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -Wno-pointer-sign -std=gnu99  -msse4.2  -pie   CMakeFiles/cmTC_c20cc.dir/CheckIncludeFile.c.o  -o cmTC_c20cc 
+make[1]: Leaving directory '/home/fabien/work/tmp/selfcontained_wireshark/wireshark/.tis-ci/_build/CMakeFiles/CMakeTmp'
+
+
